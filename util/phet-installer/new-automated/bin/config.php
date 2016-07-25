@@ -331,6 +331,9 @@
     define("BITROCK_DIST_SRC_Mac",        file_cleanup_local_filename(BITROCK_DIST_DIR.BITROCK_DISTNAME_Mac));
 
     define("BITROCK_PRE_ARGS",            " build ");
+    define("BITROCK_POST_ARGS",            "");
+    # Use the following value for post args to debug installer issues when necessary
+    #define("BITROCK_POST_ARGS",            " --verbose --debugtrace debug.txt ");
 
     $g_bitrock_dists = array(
         BITROCK_PLATFORM_WINDOWS => BITROCK_DIST_SRC_WINNT,

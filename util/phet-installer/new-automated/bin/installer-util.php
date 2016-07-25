@@ -322,7 +322,7 @@
 
         // Build the installer for each platform.
         foreach ($g_bitrock_dists as $platform => $distfile) {
-            $cmd_line = $exe_dir.BITROCK_EXE.BITROCK_PRE_ARGS.'"'."$new_buildfile".'" '.$platform;
+            $cmd_line = $exe_dir.BITROCK_EXE.BITROCK_PRE_ARGS.'"'."$new_buildfile".'" '.$platform.BITROCK_POST_ARGS;
 
             $cmd_line = file_with_local_separator($cmd_line);
 
