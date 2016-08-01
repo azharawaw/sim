@@ -47,7 +47,7 @@
     // PhET Website Configuration
 
     define("PHET_VERSION",                      "1.0");
-    define("PHET_HOSTNAME",                     "phet-new.colorado.edu");
+    define("PHET_HOSTNAME",                     "phet.colorado.edu");
     define("PHET_ROOT_URL",                     "https://".PHET_HOSTNAME."/");
     define("PHET_SPONSOR_LIST_URL",             "https://".PHET_HOSTNAME."/en/sponsor-list");
     define("PHET_ENGLISH_WEBSITE_URL",          PHET_ROOT_URL.ENGLISH_LOCALE_STRING."/");
