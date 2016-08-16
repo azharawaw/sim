@@ -361,7 +361,7 @@
     // *****************************************************************************
     // Information for the creation of backups of previous installers.
 
-    define("INSTALLER_BACKUP_ROOT_DIR", "/data/share/phet/backups/installers/");
+    define("INSTALLER_BACKUP_ROOT_DIR", "/data/share/phet/installer-backups/");
 
     // *****************************************************************************
     // JAR file signing config information.
