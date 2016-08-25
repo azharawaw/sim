@@ -17,7 +17,7 @@ echo " `date`" | tee --append $LOG
 echo "================================================================" | tee --append $LOG
 
 # Execute the main build script, passing in the appropriate options.
-/usr/local/php/bin/php ./bin/multi-language-installer-rip-and-rebuild.php | tee --append $LOG
+/usr/bin/php ./bin/multi-language-installer-rip-and-rebuild.php | tee --append $LOG
 
 
 
