@@ -16,4 +16,4 @@ echo " Unlock forced by `whoami` on: " | tee --append custom-installer-builder-l
 echo " `date`"  | tee --append custom-installer-builder-log.txt
 echo "================================================================" | tee --append custom-installer-builder-log.txt
 
-/usr/local/php/bin/php ./bin/force-unlock.php
+/usr/bin/php ./bin/force-unlock.php
