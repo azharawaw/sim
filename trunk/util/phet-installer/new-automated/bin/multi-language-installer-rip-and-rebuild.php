@@ -45,6 +45,7 @@
         // Rip the web site.
         ripper_rip_website( "MULTI_LANGUAGE" );
         ripper_download_sims();
+        ripper_get_all_permissions_jars();
 
         // Log the time at which the rip completed.
         $rip_finish_time = exec( "date" );
