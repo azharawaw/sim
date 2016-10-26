@@ -10,9 +10,10 @@
     //--------------------------------------------------------------------------
 
     require_once("config.php");
+    require_once("file-util.php");
     require_once("global.php");
     require_once("installer-util.php");
-    require_once("file-util.php");
+    require_once("secret-config.php");
 
     //--------------------------------------------------------------------------
     // Create the version information file that is used by the PhET web site to
@@ -124,6 +125,7 @@
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, "https://phet.colorado.edu/admin/new-installer?timestamp=$timestamp");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_USERPWD, "token:".AUTHENTICATION_CODE);
         $output = curl_exec($ch);
         curl_close($ch);
     }
