@@ -171,6 +171,7 @@ public class JavaBuildCommand {
         javac.setTarget( project.getJavaTargetVersion() );
         javac.setSrcdir( new Path( antTaskRunner.getProject(), toClasspathString( src ) ) );
         javac.setDestdir( project.getClassesDirectory() );
+        javac.setEncoding( "UTF-8");
 
         //This block enables compilation of mixed java-scala sources by pointing the java compiler at the compiled scala source
         // see http://www.codecommit.com/blog/scala/joint-compilation-of-scala-and-java-sources
