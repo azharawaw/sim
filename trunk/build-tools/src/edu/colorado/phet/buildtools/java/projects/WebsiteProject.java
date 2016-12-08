@@ -83,7 +83,7 @@ public class WebsiteProject extends JavaProject {
     }
 
     public boolean deploy( String host, String protocol, AuthenticationInfo userInfo, AuthenticationInfo managerInfo ) {
-        String webHost = host.equals( "figaro.colorado.edu" ) ? "phet.colorado.edu" : host; //Have to use public web url for curling, or it will fail 
+        String webHost = host.equals( "phet-server.int.colorado.edu" ) ? "phet.colorado.edu" : host; //Have to use public web url for curling, or it will fail
         boolean success = false;
         try {
             System.out.println( "Starting website deployment" );
@@ -92,11 +92,13 @@ public class WebsiteProject extends JavaProject {
             ScpTo.uploadFile( getBuildWarFile(), userInfo.getUsername(), host, "/tmp/", userInfo.getPassword() );
             ScpTo.closeAllSessions();
 
+            String tomcatManagerCommand = "curl -k -u " + managerInfo.getUsername() + ":" + managerInfo.getPassword() + " '" + protocol + "://" + webHost + "/manager/" + ( host.startsWith( "192" ) ? "text/" : "" );
+
             System.out.println( "Finished uploading, executing undeploy and deploy on Tomcat" );
             success = SshUtils.executeCommands( new String[] {
-                    host.equals( "phetsims.colorado.edu" ) || host.equals( "figaro.colorado.edu" ) ? "cp /tmp/ROOT.war /data/web/htdocs/phetsims/website-backup/website-code/ROOT-`date +%s`-`date | sed -e 's/ /_/g'`.war" : "",
-                    "curl -k -u " + managerInfo.getUsername() + ":" + managerInfo.getPassword() + " '" + protocol + "://" + webHost + "/manager/undeploy?path=/'",
-                    "curl -k -u " + managerInfo.getUsername() + ":" + managerInfo.getPassword() + " '" + protocol + "://" + webHost + "/manager/deploy?war=/tmp/ROOT.war&path=/'"
+                    host.equals( "phetsims.colorado.edu" ) || host.equals( "phet-server.int.colorado.edu" ) ? "cp /tmp/ROOT.war /data/web/htdocs/phetsims/website-backup/website-code/ROOT-`date +%s`-`date | sed -e 's/ /_/g'`.war" : "",
+                    tomcatManagerCommand + "undeploy?path=/'",
+                    tomcatManagerCommand + "deploy?war=/tmp/ROOT.war&path=/'"
             }, host, userInfo );
 
             System.out.println( "Finished running Tomcat commands. Should have stated 'OK - Deployed application at context path'" );
@@ -114,7 +116,8 @@ public class WebsiteProject extends JavaProject {
     @Override
     public String getClasspath() {
         try {
-            return super.getClasspath() + " : " + new File( getProjectDir(), "contrib/javaee.jar" ).getCanonicalPath();
+            return super.getClasspath()  + " : " + new File( getProjectDir(), "contrib/servlet-api.jar" ).getCanonicalPath()
+                   + " : " + new File( getProjectDir(), "contrib/javaee.jar" ).getCanonicalPath();
         }
         catch ( IOException e ) {
             e.printStackTrace();

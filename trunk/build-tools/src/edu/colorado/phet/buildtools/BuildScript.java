@@ -493,7 +493,6 @@ public class BuildScript {
         deploy( new Task() {
                     public boolean invoke() {
                         //generate files for dev
-                        //sendCopyToDev( PhetWebsite.FIGARO.getServerAuthenticationInfo( buildLocalProperties ), OldPhetServer.FIGARO_DEV );
                         return true;
                     }
                 }, OldPhetServer.DEFAULT_DEVELOPMENT_SERVER, devAuth, new VersionIncrement.UpdateDev(), new Task() {
@@ -516,7 +515,6 @@ public class BuildScript {
                 new Task() {
                     public boolean invoke() {
                         //generate files for dev
-                        //sendCopyToDev( PhetWebsite.FIGARO.getServerAuthenticationInfo( buildLocalProperties ), OldPhetServer.FIGARO_DEV );
                         sendCopyToDev( devAuth, OldPhetServer.DEFAULT_DEVELOPMENT_SERVER );
                         return prepareStagingArea( productionSite );
                     }
@@ -560,12 +558,6 @@ public class BuildScript {
             sendSSH( server, devAuth );
             generateOfflineJars( project, server, devAuth );
         }
-//        PhetWebsite website = PhetWebsite.FIGARO;
-//        project.buildLaunchFiles( website.getProjectDevUrl( project ), true );
-//        if ( !debugDryRun ) {
-//            sendDevCopyTo( website );
-//            generateOfflineJars( project, OldPhetServer.SPOT, devAuth );
-//        }
         PhetWebsite.openBrowser( server.getCodebase( project ) );
         //TODO #2143, delete <project>_en.production.jnlp files, since they shouldn't go to tigercat
     }

@@ -206,33 +206,11 @@ public class HTML5ProjectPanel extends JPanel {
     }
 
     private void doWicketTest() {
-//        boolean confirm = PhetBuildGUI.confirmProdDeploy( project, OldPhetServer.FIGARO );
-//
-//        if ( !confirm ) {
-//            System.out.println( "Cancelled" );
-//            return;
-//        }
-
         BuildLocalProperties buildLocalProperties = BuildLocalProperties.getInstance();
 
-//        VersionIncrement versionIncrement = null;
-//        if ( incrementMinor.isSelected() ) {
-//            versionIncrement = new VersionIncrement.UpdateProdMinor();
-//        }
-//        else if ( incrementMajor.isSelected() ) {
-//            versionIncrement = new VersionIncrement.UpdateProdMajor();
-//        }
-
-//        new BuildScript( trunk, project ).deployToDevelopmentAndProductionServers(
-//                buildLocalProperties.getDevAuthenticationInfo(),
-//                PhetWebsite.FIGARO.getServerAuthenticationInfo( buildLocalProperties ),
-//                versionIncrement, PhetWebsite.FIGARO );
-
-        // NOT WORKING!
         new BuildScript( trunk, project ).deployToProductionAndDevelopment(
                 PhetBuildGUI.getProductionWebsite(),
                 OldPhetServer.DEFAULT_DEVELOPMENT_SERVER, buildLocalProperties.getDevAuthenticationInfo(), true, new VersionIncrement.UpdateProdMinor() );
-        //new BuildScript( trunk, project ).newDeployToDev( OldPhetServer.PHET_SERVER_DEV, buildLocalProperties.getDevAuthenticationInfo(), true );
     }
 
 }

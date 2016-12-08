@@ -20,7 +20,6 @@ import edu.colorado.phet.common.phetcommon.util.LocaleUtils;
 import com.jcraft.jsch.JSchException;
 
 /**
- * TODO: redo docs for figaro update
  * Deploying a common simulation has four phases:
  * <p/>
  * (A) Run WebsiteCommonTranslationDeployClient on your machine
