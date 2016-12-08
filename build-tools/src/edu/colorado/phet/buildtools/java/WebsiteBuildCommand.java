@@ -145,7 +145,6 @@ public class WebsiteBuildCommand extends JavaBuildCommand {
 
                 StringBuilder jsBuilder = new StringBuilder();
                 jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "autoTracking_phet.js" ) ) ).append( "\n" );
-//                jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "jquery-3.0.0.min.js" ) ) ).append( "\n" );
                 jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "jquery-3.1.1.min.js" ) ) ).append( "\n" );
                 jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "jquery.autocomplete.js" ) ) ).append( "\n" );
                 jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "modernizr-custom-min.js" ) ) ).append( "\n" );
@@ -157,14 +156,14 @@ public class WebsiteBuildCommand extends JavaBuildCommand {
 
                 // this try catch block will be removed after merging the new sim pages into master.
                 // right now there are new js files on that branch but not on master
-                try {
+//                try {
                     jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "jquery.lightbox_me.js" ) ) ).append( "\n" );
                     jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "phet-login-form.js" ) ) ).append( "\n" );
                     jsBuilder.append( FileUtils.loadFileAsString( new File( jsDir, "contribution-edit.js" ) ) ).append( "\n" );
-                }
-                catch( Exception e ) {
-                    System.out.println( "Exception throw when adding login form js" );
-                }
+//                }
+//                catch( Exception e ) {
+//                    System.out.println( "Exception throw when adding login form js" );
+//                }
 
                 System.out.println( "compressing js" );
                 ToolErrorReporter reporter = new ToolErrorReporter( false );

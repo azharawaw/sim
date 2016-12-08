@@ -31,18 +31,6 @@ public abstract class OldPhetServer {
                     null
             );
 
-    public static OldPhetServer FIGARO = new PhetProdServer(
-            "figaro.colorado.edu",
-            "phet.colorado.edu",
-            "/data/web/htdocs/phetsims/staging/sims",
-            "/sims",
-            null,
-            null,
-            null,
-            "/usr/local/tomcat/conf/build-local.properties",
-            "/data/web/htdocs/phetsims/staging/sims",
-            "/data/web/htdocs/phet"
-    );
     public static OldPhetServer SIMIAN = new PhetProdServer(
             "simian.colorado.edu",
             "phet-dev.colorado.edu",
@@ -54,17 +42,6 @@ public abstract class OldPhetServer {
             "/usr/local/tomcat/conf/build-local.properties",
             "/data/web/htdocs/phetsims/staging/sims",
             "/data/web/htdocs/phet"
-    );
-    public static OldPhetServer FIGARO_DEV = new PhetDevServer(
-            "figaro.colorado.edu", // Server host
-            "phet.colorado.edu",  // Web host
-            "/data/web/htdocs/phetsims/files/dev", // Deploy path on server
-            "/files/dev", // Deploy path on web host
-            null, // Cache clear full URL
-            null, // Cache clear file
-            null, // Localization generation command
-            "/web/htdocs/phet/phet-dist/build-tools-config/build-local.properties",
-            null
     );
     public static OldPhetServer SIMIAN_DEV = new PhetDevServer(
             "simian.colorado.edu", // Server host
@@ -80,7 +57,7 @@ public abstract class OldPhetServer {
 
     public static OldPhetServer PHET_SERVER = new PhetProdServer(
             "phet-server.int.colorado.edu",
-            "phet-new.colorado.edu",
+            "phet.colorado.edu",
             "/data/web/static/phetsims/staging/sims",
             "/sims",
             null,
@@ -128,30 +105,6 @@ public abstract class OldPhetServer {
             "/etc/tomcat6/build-local.properties",
             null
     );
-    /* Dano's test machine
-    public static OldPhetServer SPOT =
-        new PhetDevServer(
-                "192.168.42.102", // Server host
-                "192.168.42.102:80",  // Web host
-                "/var/www/dev/phet/dev", // Deploy path on server
-                "/dev/phet/dev", // Deploy path on web host
-                null, // Cache clear full URL
-                null, // Cache clear file
-                null, // Localization generation command
-		"/var/www/dev/phet/phet-dist/build-tools-config/build-local.properties" // build-local.properties file on server
-            );
-    public static OldPhetServer PRODUCTION =
-        new PhetProdServer(
-                "192.168.42.102", // Server host
-                "192.168.42.102:80",  // Web host
-                "/var/www/dev/phet/sims", // Deploy path on server
-                "/dev/phet/sims", // Deploy path on web host
-                "http://192.168.42.102/dev/phet/admin/cache-clear.php?cache=all", // Cache clear full URL
-                "cache-clear.php", // Cache clear file
-                "/var/www/dev/phet/cl_utils/create-localized-jars.py --verbose --sim-root=/var/www/dev/phet/sims --jar-cmd=/usr/lib/jvm/java-6-sun-1.6.0.03/bin/jar", // Localization generation command
-		"/var/www/dev/phet/phet-dist/build-tools-config/build-local.properties" // build-local.properties file on server
-            );
-    */
 
     private String serverHost;
     private String webHost;
@@ -256,7 +209,7 @@ public abstract class OldPhetServer {
         //TODO: refactor getting server side path, should be specified in PhetProject
         public String getServerDeployPath( PhetProject project ) {
             if ( project.getProdServerDeployPath() != null ) {
-                // temporary workaround to specify an absolute path on figaro
+                // temporary workaround to specify an absolute path on phet-server
                 // TODO: refactor this out so we don't rely on OldPhetServer, and don't use getServerDeployPath (points to sim root)
                 String path = docRoot + project.getProdServerDeployPath();
                 System.out.println( "getServerDeployPath()<override>:" + path );
@@ -275,7 +228,7 @@ public abstract class OldPhetServer {
         }
     }
 
-    public static final OldPhetServer DEFAULT_PRODUCTION_SERVER = FIGARO;
+    public static final OldPhetServer DEFAULT_PRODUCTION_SERVER = PHET_SERVER;
     public static final OldPhetServer DEFAULT_DEVELOPMENT_SERVER = SPOT;
 
     public abstract String getJDKHome();

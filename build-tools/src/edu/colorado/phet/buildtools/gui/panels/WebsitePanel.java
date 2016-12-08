@@ -54,7 +54,7 @@ public class WebsitePanel extends JPanel {
             }
         } );
 
-        for ( final PhetWebsite website : new PhetWebsite[]{ PhetWebsite.LOCAL_SERVER, PhetWebsite.PHET_SERVER, PhetWebsite.SIMIAN, PhetWebsite.FIGARO } ){
+        for ( final PhetWebsite website : new PhetWebsite[]{ PhetWebsite.LOCAL_SERVER, PhetWebsite.PHET_SERVER, PhetWebsite.SIMIAN } ){
             JPanel deployLocalPanel = new VerticalLayoutPanel();
             deployLocalPanel.setBorder( BorderFactory.createTitledBorder( "Deploy" ) );
 

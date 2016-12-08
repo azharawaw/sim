@@ -1,10 +1,10 @@
-# Figaro SSH credentials (should be your Identikey)
-figaro.username=
-figaro.password=
+# phet-server SSH credentials (should be your Identikey)
+phet-server.username=
+phet-server.password=
 
-# Figaro Tomcat Manager credentials
-figaro.tomcatmanager.username=
-figaro.tomcatmanager.password=
+# phet-server Tomcat Manager credentials
+phet-server.tomcatmanager.username=
+phet-server.tomcatmanager.password=
 
 # Simian SSH credentials (should be your Identikey)
 simian.username=

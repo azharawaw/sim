@@ -215,53 +215,6 @@ public abstract class PhetWebsite {
     * available websites
     *----------------------------------------------------------------------------*/
 
-    public static PhetWebsite FIGARO = new PhetWebsite() {
-        @Override
-        public String getName() {
-            return "figaro";
-        }
-
-        @Override
-        public String getDescription() {
-            return "The production website figaro.colorado.edu, available at phet.colorado.edu";
-        }
-
-        @Override
-        public OldPhetServer getOldProductionServer() {
-            return OldPhetServer.FIGARO;
-        }
-
-        @Override
-        public OldPhetServer getOldDevelopmentServer() {
-            return OldPhetServer.FIGARO_DEV;
-        }
-
-        @Override
-        public String getServerHost() {
-            return "figaro.colorado.edu";
-        }
-
-        @Override
-        public String getWebHost() {
-            return "phet.colorado.edu";
-        }
-
-        @Override
-        public String getBuildLocalPropertiesLocation() {
-            return "/usr/local/tomcat/conf/build-local.properties";
-        }
-
-        @Override
-        public String getDocumentRoot() {
-            return "/data/web/htdocs/phetsims";
-        }
-
-        @Override
-        public String getTomcatManagerProtocol() {
-            return "https";
-        }
-    };
-
     public static PhetWebsite SIMIAN = new PhetWebsite() {
         @Override
         public String getName() {
@@ -317,7 +270,7 @@ public abstract class PhetWebsite {
 
         @Override
         public String getDescription() {
-            return "The development website phet-server.int.colorado.edu";
+            return "The production website phet-server.int.colorado.edu";
         }
 
         @Override
@@ -337,7 +290,7 @@ public abstract class PhetWebsite {
 
         @Override
         public String getWebHost() {
-            return "phet-new.colorado.edu";
+            return "phet.colorado.edu";
         }
 
         @Override
@@ -393,7 +346,7 @@ public abstract class PhetWebsite {
 
     public static PhetWebsite DEFAULT_PRODUCTION_WEBSITE = PHET_SERVER;
 
-    private static final PhetWebsite[] websites = new PhetWebsite[] { FIGARO, LOCAL_SERVER, PHET_SERVER };
+    private static final PhetWebsite[] websites = new PhetWebsite[] { LOCAL_SERVER, PHET_SERVER };
 
     /**
      * Find one of the websites with the specified name
