@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--density-and-buoyancy-strings_ro.xml created Wed Nov 30 23:06:40 EET 2016 using: density-and-buoyancy 1.05.00 (50250), translation-utility 2.18.00 (74383) Mai 28, 2015--><SimStrings>
+<string key="buoyancy.tab.intro" value="Introducere"/>
+<string key="properties.mass" value="Masa"/>
+<string key="controlPanel.showVectorValues" value="Valoarea Forţei"/>
+<string key="forceArrows.contact" value="Contact"/>
+<string key="mode.objectsOfSameVolume" value="Acelaşi Volum"/>
+<string key="mysteryObject.densityColumnHeader" value="Densitate ({0})"/>
+<string key="material.aluminum" value="Aluminiu"/>
+<string key="properties.massKilogram" value="kg"/>
+<string key="material.air" value="Aer"/>
+<string key="material.custom" value="Blocul meu"/>
+<string key="material.gasoline" value="Benzină"/>
+<string key="customObject.material" value="Substanţa"/>
+<string key="mode.mysteryObjects" value="Necunoscut"/>
+<string key="customObject.custom" value="Cubul meu"/>
+<string key="material.wood" value="Lemn"/>
+<string key="properties.massKilogramValue" value="{0} kg"/>
+<string key="mode.two" value="Doi"/>
+<string key="material.styrofoam" value="Polistiren"/>
+<string key="material.honey" value="Miere"/>
+<string key="material.apple" value="Măr"/>
+<string key="blockName.b" value="B"/>
+<string key="blockName.a" value="A"/>
+<string key="material.ice" value="Gheaţă"/>
+<string key="buoyancy.tab.playground" value="Flotabilitate "/>
+<string key="fluid.controls.intro.label" value="Lichid"/>
+<string key="mode.mysteryObjects.E" value="E"/>
+<string key="mode.mysteryObjects.D" value="D"/>
+<string key="mode.mysteryObjects.C" value="C"/>
+<string key="mode.mysteryObjects.B" value="B"/>
+<string key="material.diamond" value="Diamant"/>
+<string key="mode.mysteryObjects.A" value="A"/>
+<string key="mode.title" value="Cub"/>
+<string key="material.oliveOil" value="Ulei de măsline"/>
+<string key="material.lead" value="Plumb"/>
+<string key="forceArrows.buoyancy" value="Plutire"/>
+<string key="properties.fluidDensity" value="Densitatea Lichidului"/>
+<string key="mysteryObject.densityUnitsKgL" value="kg/L"/>
+<string key="customObject.properties" value="Proprietăţi"/>
+<string key="forceArrows.gravity" value="Gravitaţie"/>
+<string key="material.brick" value="Cărămidă"/>
+<string key="mysteryObject.material" value="Substanţă"/>
+<string key="mysteryObject.table.title" value="Densitatea unor substanţe"/>
+<string key="properties.weightPoundValue" value="{0} livră"/>
+<string key="material.oil" value="Ulei"/>
+<string key="properties.volumeLiterValue" value="{0} L"/>
+<string key="mode.objectsOfSameDensity" value="Aceeaşi Densitate"/>
+<string key="density.simTitle" value="Densitate"/>
+<string key="controlPanel.readouts" value="Date de iesire"/>
+<string key="properties.volumeMilliLiterValue" value="{0} mL"/>
+<string key="mode.customObject" value="Modifică"/>
+<string key="mode.objectsOfSameMass" value="Aceeaşi Masă "/>
+<string key="application.resetAll" value="Resetează"/>
+<string key="material.gold" value="Aur"/>
+<string key="properties.densityValue" value="{0} kg/L"/>
+<string key="forceArrowControlPanelTitle" value="Arată Forţele"/>
+<string key="properties.weightNewtonValue" value="{0} N"/>
+<string key="customObject.name" value="nume"/>
+<string key="controlPanel.showMasses" value="Masa"/>
+<string key="material.water" value="Apă"/>
+<string key="properties.massGramValue" value="{0} g"/>
+<string key="properties.density" value="Densitate"/>
+<string key="material.waterBalloon" value="Balon de Apă"/>
+<string key="mysteryObject.table.showTable" value="Arată tabel"/>
+<string key="mode.one" value="Unu"/>
+<string key="properties.volume" value="Volum"/>
+<string key="buoyancy.simTitle" value="Flotabilitate"/>
+<string key="properties.kilogramPerLiter" value="kg/L"/>
+<string key="properties.volumeLiter" value="L"/>
+</SimStrings>
