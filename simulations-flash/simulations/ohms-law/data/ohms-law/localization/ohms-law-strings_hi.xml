@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--ohms-law-strings_hi.xml created Tue Nov 01 20:24:22 IST 2016 using: ohms-law 2.03.00 (51206), translation-utility 2.18.00 (74383) May 29, 2015--><SimStrings>
+<string key="currentEq" value="विद्युतधारा"/>
+<string key="resistance" value="प्रतिरोध"/>
+<string key="simTitle" value="ओहम का नियम "/>
+<string key="sound" value="ध्वनि"/>
+<string key="translation.credits" value="Laxman Singh"/>
+<string key="voltage" value="विभवान्तर"/>
+</SimStrings>
