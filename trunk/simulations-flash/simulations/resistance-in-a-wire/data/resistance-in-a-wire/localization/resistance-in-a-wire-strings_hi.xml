@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--resistance-in-a-wire-strings_hi.xml created Wed Nov 02 18:48:12 IST 2016 using: resistance-in-a-wire 2.02.00 (52286), translation-utility 2.18.00 (74383) May 29, 2015--><SimStrings>
+<string key="cm" value="सेमी "/>
+<string key="resistanceEq" value="प्रतिरोध "/>
+<string key="ohm" value="ओहम"/>
+<string key="simTitle" value="तार में प्रतिरोध "/>
+<string key="translation.credits" value="laxman singh"/>
+</SimStrings>
