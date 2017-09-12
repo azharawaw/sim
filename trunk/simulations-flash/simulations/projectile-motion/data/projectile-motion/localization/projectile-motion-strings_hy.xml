@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--projectile-motion-strings_hy.xml created Fri May 12 07:32:47 AMT 2017 using: projectile-motion 2.03.00 (52266), translation-utility 2.18.00 (74383) мая 28, 2015--><SimStrings>
+<string key="dragLabel" value="Դիմադրության գործակից"/>
+<string key="userChoice" value="Սեփական ընտրություն"/>
+<string key="altitudeLabel" value="բարձրացում(մ)"/>
+<string key="football" value="Ֆուտբոլի գնդակ"/>
+<string key="golfball" value="Գոլֆի գնդակ"/>
+<string key="simTitle" value="Արկի շարժում"/>
+<string key="collision" value="Բախում!"/>
+<string key="adultHuman" value="չափահաս մարդ"/>
+<string key="time" value="ժամանակ(վ)"/>
+<string key="buick" value="Մեքենա"/>
+<string key="diameter" value="տրամագիծ(մ)"/>
+<string key="initSpeed" value="սկզբնական արագություն"/>
+<string key="bowlingball" value="Բոուլինգի գնդակ"/>
+<string key="piano" value="Դաշնամուր"/>
+<string key="sound" value="Ձայն"/>
+<string key="range" value="հեռավորություն(մ)"/>
+<string key="mass" value="զանգված(կգ)"/>
+<string key="height" value="բարձրություն(մ)"/>
+<string key="pumpkin" value="Դդում"/>
+<string key="score" value="Միավոր!"/>
+<string key="angle" value="անկյուն(աստիճան)"/>
+<string key="baseball" value="Բեյսբոլի գնդակ"/>
+<string key="airResistance" value="օդի դիմադրություն"/>
+<string key="fire" value="Կրակ"/>
+<string key="erase" value="Ջնջել"/>
+<string key="tankshell" value="Փամփուշտ"/>
+</SimStrings>
