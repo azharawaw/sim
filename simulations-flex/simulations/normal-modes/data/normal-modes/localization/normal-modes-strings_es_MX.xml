@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--normal-modes-strings_es_MX.xml created Thu Sep 14 11:29:19 CDT 2017 using: normal-modes 1.01.00 (66456), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="simSpeed" value="rapidez de la simulación"/>
+<string key="slow" value="lento"/>
+<string key="modeSpectrumDisplay" value="Mostrar Espectro de la frecuencia"/>
+<string key="phase:" value="Fase:"/>
+<string key="minusPi" value="-π"/>
+<string key="zeroPositions" value="Posiciones Cero"/>
+<string key="start" value="Iniciar"/>
+<string key="step" value="pasos"/>
+<string key="modeNumbersXY" value="Número de Frecuencias x, y."/>
+<string key="polarization:" value="Control de &lt;br&gt;Polarización"/>
+<string key="amplitude:" value="Amplitud:"/>
+<string key="plusPi" value="+π"/>
+<string key="modeSpectrum" value="Espectro de la Frecuencia Resonante"/>
+<string key="frequency:" value="Frecuencia:"/>
+<string key="normalModes" value="Modos normales"/>
+<string key="omega" value="ω"/>
+<string key="showPhases" value="Mostrar Pases"/>
+<string key="normal-modes.simTitle" value="Frecuencias resonantes."/>
+<string key="showSprings" value="Mostrar Resortes"/>
+<string key="stop" value="Parar"/>
+<string key="resetPositions" value="Posiciones Iniciales"/>
+<string key="normalMode:" value="Frecuencia resonante:"/>
+<string key="translation.credits" value="Por Héctor R. MALLMA ALVARADO"/>
+<string key="paused" value="EN PAUSA"/>
+<string key="numberOfMasses" value="Número de masas"/>
+</SimStrings>
