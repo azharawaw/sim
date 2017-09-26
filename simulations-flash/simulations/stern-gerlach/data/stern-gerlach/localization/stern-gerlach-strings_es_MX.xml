@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--stern-gerlach-strings_es_MX.xml created Thu Sep 21 22:48:06 CDT 2017 using: stern-gerlach 2.02.00 (52653), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="+z" value="+z"/>
+<string key="+x" value="+x"/>
+<string key="angle3" value="ángulo 3"/>
+<string key="angle2" value="ángulo 2"/>
+<string key="slow" value="lento"/>
+<string key="randomXZ" value="xz aleatorio"/>
+<string key="simTitle" value="Experimento de Stern-Gerlach"/>
+<string key="sternGerlachExperiment" value="Experimento de Stern-Gerlach"/>
+<string key="spinOrientation" value="orientación \ndel spin"/>
+<string key="on" value="Sí"/>
+<string key="up" value="arriba"/>
+<string key="down" value="abajo"/>
+<string key="sound" value="Sonido"/>
+<string key="fast" value="rápido"/>
+<string key="numberOfMagnets" value="número de \nimanes"/>
+<string key="-z" value="-z"/>
+<string key="translation.credits" value="Diana López, IPN"/>
+<string key="autoFire" value="Autodisparo"/>
+<string key="fireAtom" value="Disparar Átomo"/>
+<string key="angle" value="ángulo"/>
+<string key="reset" value="Reinicio"/>
+<string key="resetCount" value="Reiniciar contador"/>
+<string key="off" value="No"/>
+</SimStrings>
