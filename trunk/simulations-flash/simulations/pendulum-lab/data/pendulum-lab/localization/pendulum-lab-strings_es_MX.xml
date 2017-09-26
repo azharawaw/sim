@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--pendulum-lab-strings_es_MX.xml created Tue Sep 19 15:11:59 CDT 2017 using: pendulum-lab 2.03.00 (52288), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="resetStopwatch" value="reiniciar"/>
+<string key="earth" value="Tierra"/>
+<string key="showPhotoGateTimer" value="reloj fotoactivado"/>
+<string key="planetX" value="Planeta X"/>
+<string key="acceleration" value="aceleración"/>
+<string key="showEnergyOf" value="Mostrar energía de:"/>
+<string key="PE" value="EP"/>
+<string key="velocity" value="velocidad"/>
+<string key="translation.credits" value="Diana López"/>
+<string key="realTime" value="tiempo real"/>
+<string key="length" value="longitud"/>
+<string key="lots" value="mucha"/>
+<string key="friction" value="fricción"/>
+<string key="showSecondPendulum" value="Mostrar 2º péndulo"/>
+<string key="start" value="Comenzar"/>
+<string key="mass_unit" value="kg"/>
+<string key="jupiter" value="Júpiter"/>
+<string key="moon" value="Luna"/>
+<string key="energyOf" value="energía de "/>
+<string key="period" value="periodo:"/>
+<string key="simStrings" value="Laboratorio de Péndulo"/>
+<string key="noneFriction" value="ninguna"/>
+<string key="total" value="total"/>
+<string key="mass2" value="masa 2:"/>
+<string key="pendulum" value="Péndulo"/>
+<string key="startPauseStopwatch" value="Comenzar/pausa"/>
+<string key="show" value="Mostrar:"/>
+<string key="length2" value="longitud 2:"/>
+<string key="photoGateTimer" value="reloj fotoactivado"/>
+<string key="thermal" value="Térmica"/>
+<string key="pausePlay" value="pausa/seguir"/>
+<string key="reset" value="Reiniciar"/>
+<string key="mass" value="masa"/>
+<string key="quarterTime" value="1/4 tiempo"/>
+<string key="KE" value="EC"/>
+<string key="gEqZero" value="g = 0"/>
+<string key="length_unit" value="m"/>
+<string key="noneEnergy" value="ningún"/>
+<string key="simTitle" value="Laboratorio de Péndulo"/>
+<string key="otherTools" value="otras herramientas"/>
+<string key="angleUnit" value="grados"/>
+<string key="paused" value="pausado"/>
+<string key="sixteenthTime" value="1/16 tiempo"/>
+</SimStrings>
