@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--equation-grapher-strings_es_MX.xml created Tue Sep 12 15:25:45 CDT 2017 using: equation-grapher 2.02.00 (52283), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="showYEq" value="Mostrar y ="/>
+<string key="erase" value="Borrar"/>
+<string key="save" value="Guardar"/>
+<string key="zero" value="Cero"/>
+<string key="simTitle" value="Graficador de Ecuaciones"/>
+<string key="translation.credits" value="Diana López"/>
+</SimStrings>
