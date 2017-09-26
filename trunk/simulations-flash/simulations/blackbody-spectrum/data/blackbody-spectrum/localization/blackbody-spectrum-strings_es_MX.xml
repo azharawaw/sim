@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--blackbody-spectrum-strings_es_MX.xml created Thu Sep 07 14:30:21 CDT 2017 using: blackbody-spectrum 2.02.00 (52705), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="r" value="R"/>
+<string key="translation.credits" value="Diana López"/>
+<string key="zoomIn" value="acercar"/>
+<string key="intensity" value="intensidad"/>
+<string key="simTitle" value="Espectro del Cuerpo Negro"/>
+<string key="zoomOut" value="alejar"/>
+<string key="clear" value="Borrar"/>
+<string key="g" value="V"/>
+<string key="sun" value="Sol"/>
+<string key="tempInK" value="T(K)"/>
+<string key="save" value="Guardar"/>
+<string key="showRuler" value="mostrar regla"/>
+<string key="wavelength" value="longitud de onda"/>
+<string key="b" value="A"/>
+<string key="oven" value="horno"/>
+<string key="earth" value="tierra"/>
+<string key="lightBulb" value="bombilla"/>
+</SimStrings>
