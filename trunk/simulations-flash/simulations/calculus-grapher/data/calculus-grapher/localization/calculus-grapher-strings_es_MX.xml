@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--calculus-grapher-strings_es_MX.xml created Fri Sep 08 13:05:19 CDT 2017 using: calculus-grapher 2.08.00 (55025), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="integral" value="Integral"/>
+<string key="grid" value="Cuadrícula"/>
+<string key="dragMe" value="¡Arrastrarme!"/>
+<string key="hill" value="Colina"/>
+<string key="cursor" value="Cursor"/>
+<string key="simTitle" value="Graficador de Cálculo"/>
+<string key="offset" value="Altura"/>
+<string key="freeform" value="A Mano Alzada"/>
+<string key="pedestal" value="Pulso"/>
+<string key="line" value="Línea"/>
+<string key="drawingTools" value="Herramientas de dibujo"/>
+<string key="zero" value="Cero"/>
+<string key="view" value="Ver"/>
+<string key="sine" value="Seno"/>
+<string key="smooth" value="Suavizar"/>
+<string key="tilt" value="Inclinación"/>
+<string key="parabola" value="Parábola"/>
+<string key="translation.credits" value="Diana López"/>
+<string key="derivative" value="Derivada"/>
+<string key="undo" value="Deshacer"/>
+</SimStrings>
