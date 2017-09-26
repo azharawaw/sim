@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--friction-strings_es_MX.xml created Wed Sep 13 14:42:42 CDT 2017 using: friction 2.03.00 (51676), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="rubYellowAtoms" value="Frota los átomos amarillos \ncontra los verdes."/>
+<string key="physics" value="Física"/>
+<string key="reset" value="Reset"/>
+<string key="simTitle" value="Fricción"/>
+<string key="translation.credits" value="Diana López, IPN"/>
+<string key="chemistry" value="Química"/>
+</SimStrings>
