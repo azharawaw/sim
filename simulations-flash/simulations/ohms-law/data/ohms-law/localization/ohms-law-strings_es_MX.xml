@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--ohms-law-strings_es_MX.xml created Thu Sep 14 11:43:40 CDT 2017 using: ohms-law 2.03.00 (51206), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="currentEq" value="corriente ="/>
+<string key="resistance" value="resistencia"/>
+<string key="simTitle" value="Ley de Ohm"/>
+<string key="sound" value="sonido"/>
+<string key="translation.credits" value="Diana López IPN"/>
+<string key="voltage" value="voltaje"/>
+</SimStrings>
