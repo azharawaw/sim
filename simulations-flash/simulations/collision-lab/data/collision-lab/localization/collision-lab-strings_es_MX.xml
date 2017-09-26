@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--collision-lab-strings_es_MX.xml created Fri Sep 08 13:23:49 CDT 2017 using: collision-lab 2.01.00 (69163), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="ShowValues.velocityCaption" value="Velocidad (m/s)"/>
+<string key="ControlPanel.showValues" value="Mostrar valores"/>
+<string key="PlayPauseButtons.step" value="Avanzar"/>
+<string key="DataTable.velocity" value="Velocidad"/>
+<string key="MomentumView.total" value="total"/>
+<string key="DataTable.positionWithUnits" value="Posición (m)"/>
+<string key="ControlPanel.sound" value="sonido"/>
+<string key="ControlPanel.showMomentumVectors" value="vectores momento"/>
+<string key="ShowValues.speedCaption" value="Rapidez (m/s)"/>
+<string key="ControlPanel.oneHundredPercent" value="Elástico"/>
+<string key="DataTable.lessData" value="menos datos"/>
+<string key="DataTable.momentumWithUnits" value="Momento (kg m/s)"/>
+<string key="translation.credits" value="Diana López"/>
+<string key="MomentumView.momenta" value="Momentos"/>
+<string key="ControlPanel.elasticityReadout" value="Elasticidad {0}%"/>
+<string key="DataTable.ball" value="bola"/>
+<string key="TableView.kineticEnergy" value="Energía cinética = {0} J"/>
+<string key="advancedTab" value="Avanzado"/>
+<string key="ControlPanel.showVelocities" value="vectores velocidad"/>
+<string key="ControlPanel.showPaths" value="Mostrar trayectorias"/>
+<string key="DataTable.mass" value="masa"/>
+<string key="DataTable.addBall" value="agregar bola"/>
+<string key="DataTable.position" value="Posición"/>
+<string key="DataTable.py" value="Py"/>
+<string key="DataTable.px" value="Px"/>
+<string key="PlayPauseButtons.pause" value="Pausa"/>
+<string key="ControlPanel.2d" value="2 dimensiones"/>
+<string key="DataTable.moreData" value="más datos"/>
+<string key="ControlPanel.reflectingBorder" value="borde reflectante"/>
+<string key="DataTable.momentum" value="Momento"/>
+<string key="DataTable.removeBall" value="sacar bola"/>
+<string key="ShowValues.momentumCaption" value="Momento (kg m/s)"/>
+<string key="ControlPanel.resetAll" value="Reiniciar"/>
+<string key="ControlPanel.momentaDiagram" value="diagrama de momentos"/>
+<string key="ControlPanel.elasticity" value="Elasticidad"/>
+<string key="ControlPanel.showCenterOfMass" value="centro de masa"/>
+<string key="ControlPanel.zeroPercent" value="Inelástico"/>
+<string key="DataTable.velocityWithUnits" value="Velocidad m/s"/>
+<string key="TableView.returnBalls" value="Regresar bolas"/>
+<string key="DataTable.massWithUnits" value="Masa (kg)"/>
+<string key="introductionTab" value="Introducción"/>
+<string key="TableView.timeRate" value="Tasa temporal"/>
+<string key="simTitle" value="Laboratorio de Colisiones"/>
+<string key="PlayPauseButtons.play" value="Ejecutar"/>
+<string key="MomentumView.tipToTail" value="Alineando cola con punta"/>
+<string key="ControlPanel.kineticEnergy" value="Energía Cinética"/>
+<string key="PlayPauseButtons.back" value="Retroceder"/>
+<string key="TableView.time" value="Tiempo = {0} J"/>
+<string key="ControlPanel.1d" value="1 dimensión"/>
+<string key="PlayPauseButtons.rewind" value="Rebobinar"/>
+</SimStrings>
