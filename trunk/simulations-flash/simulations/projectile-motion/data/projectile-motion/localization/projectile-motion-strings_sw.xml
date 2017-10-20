@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--projectile-motion-strings_sw.xml created Wed Apr 13 11:09:52 EAT 2016 using: projectile-motion 2.03.00 (52266), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
-<string key="dragLabel" value="alama buruta"/>
-<string key="userChoice" value="chaguo la mtumiaji"/>
-<string key="altitudeLabel" value="mwinuko"/>
-<string key="football" value="mpira wa miguu"/>
-<string key="golfball" value="mpira wa gofu"/>
-<string key="simTitle" value="mwendo mchomozo"/>
-<string key="collision" value="mgongano!"/>
-<string key="adultHuman" value="mtu mzima"/>
-<string key="time" value="muda"/>
-<string key="buick" value="kitu kizito"/>
-<string key="diameter" value="kipenyo(m)"/>
-<string key="initSpeed" value="kasi mwanzo"/>
-<string key="bowlingball" value="tufe"/>
-<string key="piano" value="kinanda"/>
-<string key="sound" value="sauti"/>
-<string key="range" value="mtupo"/>
-<string key="height" value="kimo(m)"/>
-<string key="mass" value="tungamo"/>
-<string key="pumpkin" value="boga"/>
-<string key="score" value="pointi"/>
-<string key="translation.credits" value="fasiri pointi"/>
-<string key="angle" value="pembe(nyuzi)"/>
-<string key="baseball" value="mpira wa gongo"/>
-<string key="airResistance" value="hewa kinzani"/>
-<string key="fire" value="rusha"/>
-<string key="erase" value="anza upya"/>
-<string key="tankshell" value="kombora"/>
+<!--projectile-motion-strings_sw.xml created Thu Apr 14 13:25:08 EAT 2016 using: projectile-motion 2.03.00 (52266), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
+<string key="dragLabel" value="Alama buruta"/>
+<string key="userChoice" value="Chaguo la mtumiaji"/>
+<string key="altitudeLabel" value="Mwinuko"/>
+<string key="football" value="Mpira wa miguu"/>
+<string key="golfball" value="Mpira wa gofu"/>
+<string key="simTitle" value="Mwendo mchomozo"/>
+<string key="collision" value="Mgongano!"/>
+<string key="adultHuman" value="Mtu mzima"/>
+<string key="time" value="Muda(s)"/>
+<string key="buick" value="Kitu kizito"/>
+<string key="diameter" value="Kipenyo(m)"/>
+<string key="initSpeed" value="Kasi mwanzo"/>
+<string key="bowlingball" value="Tufe"/>
+<string key="piano" value="Kinanda"/>
+<string key="sound" value="Sauti"/>
+<string key="range" value="Umbali mtupo"/>
+<string key="mass" value="Tungamo"/>
+<string key="height" value="Kimo(m)"/>
+<string key="pumpkin" value="Boga"/>
+<string key="score" value="Pointi"/>
+<string key="angle" value="Pembe(nyuzi)"/>
+<string key="baseball" value="Mpira wa gongo"/>
+<string key="airResistance" value="Hewa kinzani"/>
+<string key="fire" value="Rusha"/>
+<string key="erase" value="Anza upya"/>
+<string key="tankshell" value="Kombora"/>
 </SimStrings>
