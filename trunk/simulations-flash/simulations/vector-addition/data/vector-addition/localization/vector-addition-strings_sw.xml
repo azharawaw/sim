@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--vector-addition-strings_sw.xml created Thu Apr 14 20:40:33 EAT 2016 using: vector-addition 2.02.00 (52287), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
+<string key="showSum" value="Onyesha jumla"/>
+<string key="simTitle" value="Mwelekeo mwingine"/>
+<string key="grabOne" value="Nyakua moja"/>
+<string key="clearAll" value="Safisha zote"/>
+<string key="componentDisplay" value="Tawanya kitu"/>
+<string key="y" value="y"/>
+<string key="style3" value="Mtindo wa 3"/>
+<string key="none" value="Hakuna"/>
+<string key="showGrid" value="Onyesha mraba fito"/>
+<string key="style2" value="Mtindo wa 2"/>
+<string key="x" value="x"/>
+<string key="style1" value="Mtindo wa 1"/>
+</SimStrings>
