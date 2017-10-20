@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--pendulum-lab-strings_sw.xml created Sat Apr 16 09:56:09 EAT 2016 using: pendulum-lab 2.03.00 (52288), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
+<string key="resetStopwatch" value="anza upya"/>
+<string key="earth" value="dunia"/>
+<string key="showPhotoGateTimer" value="muda waphotogate"/>
+<string key="planetX" value="sayari x"/>
+<string key="acceleration" value="mwendo kasi"/>
+<string key="showEnergyOf" value="onesha nishati ya"/>
+<string key="PE" value="PE"/>
+<string key="velocity" value="kasi"/>
+<string key="translation.credits" value="fasiri pointi"/>
+<string key="realTime" value="muda halisi"/>
+<string key="length" value="urefu"/>
+<string key="lots" value="nyingi"/>
+<string key="friction" value="msuguano"/>
+<string key="showSecondPendulum" value="onesha pendulum ya pili"/>
+<string key="start" value="anza"/>
+<string key="mass_unit" value="kg"/>
+<string key="jupiter" value="jupita"/>
+<string key="moon" value="mwezi"/>
+<string key="energyOf" value="nishati ya"/>
+<string key="period" value="kipindi"/>
+<string key="simStrings" value="maabara ya pendulum"/>
+<string key="noneFriction" value="hakuna"/>
+<string key="total" value="jumla"/>
+<string key="mass2" value="uzito 2:"/>
+<string key="pendulum" value="pendulum"/>
+<string key="startPauseStopwatch" value="anza/katiza"/>
+<string key="show" value="onesha"/>
+<string key="length2" value="urefu 2:"/>
+<string key="photoGateTimer" value="muda wa photogate"/>
+<string key="thermal" value="mafuta"/>
+<string key="pausePlay" value="mkatizo/chezesha"/>
+<string key="reset" value="anza upya"/>
+<string key="mass" value="uzito"/>
+<string key="quarterTime" value="1/4 ya muda"/>
+<string key="KE" value="KE"/>
+<string key="gEqZero" value="g=0"/>
+<string key="length_unit" value="m"/>
+<string key="noneEnergy" value="hakuna"/>
+<string key="simTitle" value="maabara ya pendulum"/>
+<string key="otherTools" value="vifaa vingine"/>
+<string key="angleUnit" value="digirii"/>
+<string key="paused" value="katiza"/>
+<string key="sixteenthTime" value="1/16 ya muda"/>
+</SimStrings>
