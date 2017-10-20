@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--calculus-grapher-strings_el.xml created Thu Nov 25 07:00:37 EET 2010 using: calculus-grapher 2.03.00 (42751), translation-utility 2.09.00 (44031) Σεπ 14, 2010-->
-<SimStrings>
-<string key="grid" value="Πλέγμα"/>
-<string key="smooth" value="Ομαλό"/>
+<!--calculus-grapher-strings_el.xml created Fri Apr 29 10:27:03 EEST 2016 using: calculus-grapher 2.08.00 (55025), translation-utility 2.18.00 (74383) Μαϊ 28, 2015--><SimStrings>
 <string key="integral" value="Ολοκλήρωμα"/>
-<string key="sine" value="Ημίτονο"/>
-<string key="derivative" value="Παράγωγος"/>
-<string key="zero" value="Μηδέν"/>
+<string key="grid" value="Πλέγμα"/>
 <string key="dragMe" value="Τράβα με!"/>
-<string key="undo" value="Αναίρεση"/>
+<string key="hill" value="Ύψωμα"/>
 <string key="cursor" value="Δείκτης"/>
-<string key="line" value="Γραμμή"/>
+<string key="offset" value="Μετακίνηση"/>
+<string key="freeform" value="Ελεύθερη"/>
+<string key="pedestal" value="Βάθρο"/>
+<string key="line" value="Γωνία"/>
+<string key="drawingTools" value="Εργαλεία σχεδιασμού"/>
+<string key="zero" value="Μηδέν"/>
+<string key="view" value="Προβολή"/>
+<string key="sine" value="Ημίτονο"/>
+<string key="smooth" value="Ομαλό"/>
+<string key="tilt" value="Κλίση"/>
+<string key="parabola" value="Παραβολική"/>
+<string key="translation.credits" value="Γιάννης Κασκαμανίδης"/>
+<string key="derivative" value="Παράγωγος"/>
+<string key="undo" value="Αναίρεση"/>
 </SimStrings>
