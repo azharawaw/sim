@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--density-and-buoyancy-strings_sw.xml created Wed Apr 13 15:39:08 EAT 2016 using: density-and-buoyancy 1.05.00 (50250), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
+<string key="buoyancy.tab.intro" value="Tangulizi"/>
+<string key="properties.mass" value="tungamo"/>
+<string key="controlPanel.showVectorValues" value="Thamani ya Kani"/>
+<string key="forceArrows.contact" value="mgusano"/>
+<string key="mode.objectsOfSameVolume" value="ujazo uleule"/>
+<string key="mysteryObject.densityColumnHeader" value="msongamano({0})"/>
+<string key="material.aluminum" value="Aluminiamu"/>
+<string key="properties.massKilogram" value="kg"/>
+<string key="material.air" value="Hewa"/>
+<string key="material.custom" value="jiwe langu"/>
+<string key="material.gasoline" value="petroli"/>
+<string key="customObject.material" value="nyenzo"/>
+<string key="mode.mysteryObjects" value="fumbo"/>
+<string key="customObject.custom" value="jiwe langu"/>
+<string key="material.wood" value="ubao"/>
+<string key="properties.massKilogramValue" value="{0} kg"/>
+<string key="mode.two" value="mbili"/>
+<string key="material.styrofoam" value="iliyopakwa rangi"/>
+<string key="material.honey" value="Asali"/>
+<string key="material.apple" value="tufaha"/>
+<string key="blockName.b" value="B"/>
+<string key="blockName.a" value="A"/>
+<string key="material.ice" value="Barafu"/>
+<string key="buoyancy.tab.playground" value="uwanja wa uelezi"/>
+<string key="fluid.controls.intro.label" value="ugiligili"/>
+<string key="mode.mysteryObjects.E" value="E"/>
+<string key="mode.mysteryObjects.D" value="D"/>
+<string key="mode.mysteryObjects.C" value="C"/>
+<string key="mode.mysteryObjects.B" value="B"/>
+<string key="material.diamond" value="Almasi"/>
+<string key="mode.mysteryObjects.A" value="A"/>
+<string key="mode.title" value="mawe"/>
+<string key="material.oliveOil" value="mafuta ya mzaituni"/>
+<string key="material.lead" value="Risasi"/>
+<string key="forceArrows.buoyancy" value="uelezi"/>
+<string key="properties.fluidDensity" value="msongamano wa ugiligili"/>
+<string key="mysteryObject.densityUnitsKgL" value="kg/L"/>
+<string key="customObject.properties" value="Tabia"/>
+<string key="forceArrows.gravity" value="mvutano"/>
+<string key="material.brick" value="fukutwa"/>
+<string key="mysteryObject.material" value="nyenzo"/>
+<string key="mysteryObject.table.title" value="msongamano wa vitu mbalimbali"/>
+<string key="properties.weightPoundValue" value="{0} lb"/>
+<string key="material.oil" value="Mafuta"/>
+<string key="properties.volumeLiterValue" value="{0} L"/>
+<string key="mode.objectsOfSameDensity" value="msongamano uleule"/>
+<string key="density.simTitle" value="msongamano"/>
+<string key="controlPanel.readouts" value="visomeo"/>
+<string key="properties.volumeMilliLiterValue" value="{0} mL"/>
+<string key="mode.customObject" value="kawaida"/>
+<string key="mode.objectsOfSameMass" value="tungamo lilelile"/>
+<string key="application.resetAll" value="panga upya vyote"/>
+<string key="material.gold" value="Dhahabu"/>
+<string key="properties.densityValue" value="{0} kg/L"/>
+<string key="forceArrowControlPanelTitle" value="Onesha Kani"/>
+<string key="properties.weightNewtonValue" value="{0} N"/>
+<string key="customObject.name" value="jina"/>
+<string key="controlPanel.showMasses" value="Tungamo"/>
+<string key="material.water" value="maji"/>
+<string key="properties.massGramValue" value="{0} g"/>
+<string key="properties.density" value="msongamano"/>
+<string key="material.waterBalloon" value="puto la maji"/>
+<string key="mysteryObject.table.showTable" value="onesha jedwari"/>
+<string key="mode.one" value="moja"/>
+<string key="properties.volume" value="ujazo"/>
+<string key="buoyancy.simTitle" value="uelezi"/>
+<string key="properties.kilogramPerLiter" value="kg/L"/>
+<string key="properties.volumeLiter" value="L"/>
+</SimStrings>
