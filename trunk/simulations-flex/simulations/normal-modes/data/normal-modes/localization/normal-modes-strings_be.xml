@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--normal-modes-strings_be.xml created Wed Jun 15 07:10:13 VET 2016 using: normal-modes 1.01.00 (66456), translation-utility 2.18.00 (74383) май 28, 2015-->
+<SimStrings>
+<string key="simSpeed" value="скорасць паказу"/>
+<string key="vertical" value="Вертыкальны"/>
+<string key="slow" value="павольны"/>
+<string key="modeSpectrumDisplay" value="Рэжым адлюстравання спектру"/>
+<string key="phase:" value="Фаза:"/>
+<string key="zeroPositions" value="Пачатковае становішча"/>
+<string key="start" value="Старт"/>
+<string key="step" value="крок"/>
+<string key="polarization:" value="Палярызацыя:"/>
+<string key="amplitude:" value="Амплітуда"/>
+<string key="modeSpectrum" value="Спектр нармальных ваганняў"/>
+<string key="frequency:" value="Частата:"/>
+<string key="normalModes" value="Ваганні грузаў"/>
+<string key="showPhases" value="Паказаць фазу"/>
+<string key="normal-modes.simTitle" value="Нармальныя рэжымы"/>
+<string key="stop" value="Стоп"/>
+<string key="showSprings" value="Паказаць спружыны"/>
+<string key="resetPositions" value="Зыходныя пазіцыі"/>
+<string key="normalMode:" value="Нармальны рэжым:"/>
+<string key="horizontal" value="Гарызантальны"/>
+<string key="paused" value="Паўза"/>
+<string key="numberOfMasses" value="Колькасць грузаў"/>
+<string key="normal" value="хуткі"/>
+</SimStrings>
