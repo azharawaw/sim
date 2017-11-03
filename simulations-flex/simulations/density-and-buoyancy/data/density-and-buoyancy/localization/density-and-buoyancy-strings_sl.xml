@@ -1,43 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--density-and-buoyancy-strings_sl.xml created Wed Oct 27 11:03:56 CEST 2010 using: density-and-buoyancy 1.02.00 (44977), translation-utility 2.09.00 (44031) sep 14, 2010-->
-<SimStrings>
+<!--density-and-buoyancy-strings_sl.xml created Fri Aug 19 12:18:05 CEST 2016 using: density-and-buoyancy 1.05.00 (50250), translation-utility 2.18.00 (74383) maj 28, 2015--><SimStrings>
+<string key="buoyancy.tab.intro" value="Merjenje prostornine, teže in vzgona"/>
 <string key="properties.mass" value="Masa"/>
-<string key="mode.objectsOfSameVolume" value="Enaki volumen"/>
-<string key="bottle.2L" value=" 2 L"/>
+<string key="controlPanel.showVectorValues" value="sile"/>
+<string key="forceArrows.contact" value="sile tal"/>
+<string key="mode.objectsOfSameVolume" value="enako prostornino"/>
 <string key="mysteryObject.densityColumnHeader" value="Gostota({0})"/>
 <string key="material.aluminum" value="Aluminij"/>
 <string key="material.air" value="Zrak"/>
-<string key="material.custom" value="Moje telo"/>
+<string key="material.custom" value="Telo"/>
 <string key="material.gasoline" value="Plin"/>
 <string key="customObject.material" value="Material"/>
-<string key="mode.mysteryObjects" value="Neznani objekti"/>
-<string key="customObject.custom" value="Moje telo"/>
+<string key="mode.mysteryObjects" value="Neznani telesi"/>
+<string key="customObject.custom" value="Telo"/>
 <string key="material.wood" value="Les"/>
+<string key="mode.two" value="dve telesi"/>
 <string key="material.styrofoam" value="Stiropor"/>
 <string key="material.honey" value="Med"/>
 <string key="material.apple" value="Jabolko"/>
 <string key="material.ice" value="Led"/>
-<string key="material.diamond" value="Diamand"/>
-<string key="mode.title" value="Telesa"/>
+<string key="buoyancy.tab.playground" value="Spreminjanje gostote snovem"/>
+<string key="fluid.controls.intro.label" value="Tekočina"/>
+<string key="material.diamond" value="Diamant"/>
+<string key="mode.title" value="Telesi z"/>
 <string key="material.oliveOil" value="Olivno olje"/>
 <string key="material.lead" value="Svinec"/>
-<string key="forceArrows.buoyancy" value="Vzgon"/>
+<string key="forceArrows.buoyancy" value="vzgona"/>
 <string key="properties.fluidDensity" value="Gostota tekočine"/>
-<string key="forceArrows.gravity" value="Gravitacija"/>
-<string key="mysteryObject.table.title" value="Gostota različnih objektov"/>
+<string key="mysteryObject.densityUnitsKgL" value="kg/l"/>
+<string key="customObject.properties" value="Lastnosti"/>
+<string key="forceArrows.gravity" value="teže"/>
+<string key="mysteryObject.table.title" value="Gostota različnih teles"/>
 <string key="material.brick" value="Opeka"/>
 <string key="mysteryObject.material" value="Neznano telo"/>
-<string key="mode.objectsOfSameDensity" value="Enaka gostota"/>
+<string key="material.oil" value="Olje"/>
+<string key="properties.volumeLiterValue" value="{0} l"/>
+<string key="mode.objectsOfSameDensity" value="enako gostoto"/>
 <string key="density.simTitle" value="Gostota"/>
-<string key="mode.customObject" value="Sam določi"/>
-<string key="mode.objectsOfSameMass" value="Enaka masa"/>
-<string key="material.gold" value="Zlato"/>
+<string key="controlPanel.readouts" value="Prikaži vrednosti"/>
+<string key="properties.volumeMilliLiterValue" value="{0} ml"/>
+<string key="mode.customObject" value="Določi lastnosti telesu"/>
+<string key="mode.objectsOfSameMass" value="enako maso"/>
 <string key="application.resetAll" value="Vse počisti"/>
+<string key="material.gold" value="Zlato"/>
+<string key="properties.densityValue" value="{0} kg/l"/>
+<string key="forceArrowControlPanelTitle" value="Prikaži vektorje"/>
 <string key="customObject.name" value="ime"/>
+<string key="controlPanel.showMasses" value="mase"/>
 <string key="material.water" value="Voda"/>
 <string key="properties.density" value="Gostota"/>
 <string key="material.waterBalloon" value="Vodni balon"/>
 <string key="mysteryObject.table.showTable" value="Pokaži tabelo"/>
+<string key="mode.one" value="eno telo"/>
 <string key="properties.volume" value="Prostornina"/>
 <string key="buoyancy.simTitle" value=" Vzgon"/>
+<string key="properties.kilogramPerLiter" value="kg/l"/>
+<string key="properties.volumeLiter" value="l"/>
 </SimStrings>
