@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--friction-strings_az.xml created Sat Feb 11 16:15:52 AZT 2017 using: friction 2.03.00 (51676), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
+<string key="rubYellowAtoms" value="Sarı atomları yaşıl atomlara qarşı sürt"/>
+<string key="physics" value="Fizika"/>
+<string key="reset" value="Sıfırla"/>
+<string key="simTitle" value="Sürtünmə"/>
+<string key="translation.credits" value="Azərbaycan dilinə tərcümə Kazımlı Nicata aiddir."/>
+<string key="chemistry" value="Kimya "/>
+</SimStrings>
