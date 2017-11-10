@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--projectile-motion-strings_hy.xml created Fri May 12 07:32:47 AMT 2017 using: projectile-motion 2.03.00 (52266), translation-utility 2.18.00 (74383) мая 28, 2015--><SimStrings>
-<string key="dragLabel" value="Դիմադրության գործակից"/>
+<!--projectile-motion-strings_hy.xml created Mon May 08 21:32:43 AMT 2017 using: projectile-motion 2.03.00 (52266), translation-utility 2.18.00 (74383) мая 28, 2015--><SimStrings>
+<string key="dragLabel" value="քարշի գործակից"/>
 <string key="userChoice" value="Սեփական ընտրություն"/>
-<string key="altitudeLabel" value="բարձրացում(մ)"/>
+<string key="altitudeLabel" value="բարձրություն(մ)"/>
 <string key="football" value="Ֆուտբոլի գնդակ"/>
 <string key="golfball" value="Գոլֆի գնդակ"/>
 <string key="simTitle" value="Արկի շարժում"/>
@@ -16,7 +16,7 @@
 <string key="piano" value="Դաշնամուր"/>
 <string key="sound" value="Ձայն"/>
 <string key="range" value="հեռավորություն(մ)"/>
-<string key="mass" value="զանգված(կգ)"/>
+<string key="mass" value="զանգված(մ)"/>
 <string key="height" value="բարձրություն(մ)"/>
 <string key="pumpkin" value="Դդում"/>
 <string key="score" value="Միավոր!"/>
