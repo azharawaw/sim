@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--geometric-optics-strings_nl.xml created Thu Jan 15 20:31:54 CET 2009 using: geometric-optics 1.00.00 (22386), translation-utility 1.09.00 (26682)-->
-<SimStrings>
+<!--geometric-optics-strings_nl.xml created Fri Dec 01 16:39:14 MST 2017 using: geometric-optics 2.05.00 (52650), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
 <string key="draggableScreen" value="versleep scherm"/>
 <string key="draggableLens" value="versleep lens"/>
 <string key="screen" value="scherm"/>
@@ -15,7 +14,7 @@
 <string key="changeObject" value="verander voorwerp"/>
 <string key="principalRays" value="constructiestralen"/>
 <string key="marginalRays" value="weinig stralen"/>
-<string key="virtualImage" value="virtueel plaaje"/>
+<string key="virtualImage" value="virtueel beeld"/>
 <string key="noRays" value="geen stralen"/>
 <string key="secondSource" value="2e punt"/>
 <string key="hideHelp" value="verberg help"/>
