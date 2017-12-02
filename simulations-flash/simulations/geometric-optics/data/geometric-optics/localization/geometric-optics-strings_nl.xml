@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--geometric-optics-strings_nl.xml created Fri Dec 01 16:39:14 MST 2017 using: geometric-optics 2.05.00 (52650), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
+<!--geometric-optics-strings_nl.xml created Fri Dec 01 17:11:42 MST 2017 using: geometric-optics 2.05.00 (52650), translation-utility 2.18.00 (74383) May 28, 2015--><SimStrings>
 <string key="draggableScreen" value="versleep scherm"/>
 <string key="draggableLens" value="versleep lens"/>
 <string key="screen" value="scherm"/>
@@ -7,10 +7,10 @@
 <string key="showHelp" value="zie help"/>
 <string key="moveMe" value="beweeg me"/>
 <string key="showGuides" value="bekijk lensgrens"/>
-<string key="diameter" value="diameter"/>
+<string key="diameter" value="diameter (m)"/>
 <string key="ruler" value="liniaal"/>
 <string key="focalPoint" value="brandpunt"/>
-<string key="curvatureRadius" value="brandpunt"/>
+<string key="curvatureRadius" value="krommingsstraal (m)"/>
 <string key="changeObject" value="verander voorwerp"/>
 <string key="principalRays" value="constructiestralen"/>
 <string key="marginalRays" value="weinig stralen"/>
