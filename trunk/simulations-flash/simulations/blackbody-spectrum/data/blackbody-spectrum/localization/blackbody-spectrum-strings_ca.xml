@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--blackbody-spectrum-strings_ca.xml created Thu Dec 07 21:52:42 CET 2017 using: blackbody-spectrum 2.02.00 (52705), translation-utility 2.18.00 (74383) may 28, 2015--><SimStrings>
+<string key="r" value="R"/>
+<string key="translation.credits" value="Félix Gargallo Calduch"/>
+<string key="zoomIn" value="apropa"/>
+<string key="intensity" value="intensitat"/>
+<string key="simTitle" value="Espectre del Cos Negre"/>
+<string key="zoomOut" value="allunya"/>
+<string key="clear" value="Esborra"/>
+<string key="g" value="V"/>
+<string key="sun" value="Sol"/>
+<string key="tempInK" value="T(K)"/>
+<string key="save" value="Desa"/>
+<string key="showRuler" value="mostra el regle"/>
+<string key="wavelength" value="longitud d'ona"/>
+<string key="b" value="B"/>
+<string key="oven" value="forn"/>
+<string key="earth" value="terra"/>
+<string key="lightBulb" value="bombeta"/>
+</SimStrings>
